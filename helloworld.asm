@@ -46,4 +46,4 @@ bye:
  
     movq    $SYS_EXIT,%rax
     movq    %rcx,%r10         /* syscall destroys %rcx! */
-    syscall
+    syscalln
